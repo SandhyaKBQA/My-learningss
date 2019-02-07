@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+<<<<<<< HEAD
   <test name="Default test(failed)">
     <classes>
       <class name="Apiautomation.api.AppTest">
@@ -8,6 +9,17 @@
           <include name="Restassuredput"/>
         </methods>
       </class> <!-- Apiautomation.api.AppTest -->
+=======
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="MyLearningTs.AssignmentRuleTC">
+        <methods>
+          <include name="AsssignmentRulecreation"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- MyLearningTs.AssignmentRuleTC -->
+>>>>>>> e7751257a72a5d72fa20668c631766cc6765711e
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>api</name>
+=======
+	<name>Seleniumframework</name>
+>>>>>>> e7751257a72a5d72fa20668c631766cc6765711e
 	<comment></comment>
 	<projects>
 	</projects>
